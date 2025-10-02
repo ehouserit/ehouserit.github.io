@@ -5,9 +5,8 @@ A website to introduce people to the RIT SIH Engineering house
 ## About
 
 Engineering House (EH) is an RIT Special Interest House where members live, collaborate, and share similar interests.  
-This website introduces EH to prospective members and provides information about the community.
-The website is maintained by the active Computer Chair of Engineering House.  
-For major changes, please contact the current chair.
+This website introduces EH to prospective members and provides information about the community.   
+The website is maintained by the active Computer Chair of Engineering House. For major changes, please contact the current chair.
 
 ## Project Structure
 
