@@ -214,6 +214,16 @@ a:visited.icon{
     margin-bottom: 0.5em
 }
 
+.carousel-inner > .item > a > img, .carousel-inner > .item > img,
+.carousel-control {
+    border-radius: 10px;
+}
+
+.carousel-inner > .item > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .container {
     max-width: none;
 }
@@ -277,13 +287,13 @@ a:hover, a:focus {
     -o-filter: grayscale(100%) blur(4px);
     -ms-filter: grayscale(100%) blur(4px);
 }
-
 .tile.style1 div{
     background-color: rgba(39, 149, 191, 0.80);
 }
 .tile.style2 div{
     background-color: rgba(45, 121, 194, 0.80);
 }
+
 .tile.style3 div{
     background-color: rgba(52, 91, 199, 0.80);
 }
@@ -408,7 +418,6 @@ section{
     margin-top: -80px;
     padding-top: 80px;
 }
-
 #footer{
     margin-top: 0;
 }
@@ -421,6 +430,7 @@ section{
         height: 160px;
     }
 }
+
 
 .thick{
     padding-top: 7em;
@@ -441,18 +451,17 @@ a:hover,
 a:active{
     color: #278CEE;
 }
-
 a.icon {
     color: inherit;
 }
 
 @media (min-width: 768px)
 {
+
     .navbar-default .navbar-nav>li>a:hover:before,
     .navbar-default .navbar-nav>li>a:active:before {
         top: 0;
     }
-
     .navbar-default .navbar-nav>li>a:before {
         content: "";
         position: absolute;
@@ -466,6 +475,7 @@ a.icon {
         transition: top 100ms;
     }
 }
+
 
 .navbar .container{
     width: 100%;
@@ -496,6 +506,7 @@ body{
     display: inline-block;
 }
 
+
 .leadership section div{
     position: relative;
     display: inline-block;
@@ -504,7 +515,6 @@ body{
     right:0;
 }
 
-
 .leadership hr{
     width: 84%;
     margin-left: 16%;
@@ -512,10 +522,10 @@ body{
     border-bottom-color: rgba(144, 144, 144, 0.2);
 }
 
+
 .style2 .leadership hr{
     border-bottom-color: rgba(255, 255, 255, 0.2);
 }
-
 
 /*NEW LEADERSHIP FORMATTING*/
 
@@ -575,12 +585,12 @@ body{
 .leadership .media{
     margin-bottom: 3em;
 }
-
 .leadership hr {
     display: none;
 }
 
 @media (max-width: 768px) {
+
 
     .leadership section {
         width: 100%;
@@ -625,7 +635,6 @@ body{
         border-top: 1px solid #ddd;
         color: #555;
     }
-
     .leadership hr {
         display: block;
     }
@@ -646,6 +655,7 @@ body{
         margin-left: 0;
     }
 }
+
 
 .icon.special{
     position: relative;
@@ -676,16 +686,11 @@ body{
     border-color: #4F8ECB;
 }
 
+
 .navbar-default .navbar-toggle:focus .icon-bar,
 .navbar-default .navbar-toggle:hover .icon-bar {
     background-color: #fff;
     border-color: #fff;
-}
-
-
-.carousel-inner > .item > a > img, .carousel-inner > .item > img,
-.carousel-control {
-    border-radius: 10px;
 }
 
 ul.alt li{
