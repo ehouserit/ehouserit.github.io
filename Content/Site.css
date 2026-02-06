@@ -291,7 +291,7 @@ a:hover, a:focus {
     position: absolute;
     text-align: center;
     color: #fff;
-    opacity: 0;
+    opacity: .7;
     font-size: 1.75em;
     padding: 0.5em;
     top: 0;
@@ -773,16 +773,19 @@ a.carousel-control {
     margin-right: auto;
 }
 
-.jankathon-banner-link {
-    display: inline-block;
-}
-
+.jankathon-banner-svg,
 .jankathon-banner-logo {
     width: 60%;
     max-width: 520px;
     height: auto;
     margin: 0 auto 1.25em;
     display: block;
+}
+
+.jankathon-banner-svg {
+    aspect-ratio: 739 / 273;
+    overflow: visible;
+    overflow-clip-margin: max(100px, 100px);
 }
 
 .jankathon-banner-text {
@@ -792,18 +795,21 @@ a.carousel-control {
 }
 
 @media (max-width: 900px) {
+    .jankathon-banner-svg,
     .jankathon-banner-logo {
         width: 70%;
     }
 }
 
 @media (max-width: 720px) {
+    .jankathon-banner-svg,
     .jankathon-banner-logo {
         width: 80%;
     }
 }
 
 @media (max-width: 600px) {
+    .jankathon-banner-svg,
     .jankathon-banner-logo {
         width: 90%;
     }

@@ -6,7 +6,8 @@ A website to introduce people to the RIT SIH Engineering house
 
 Engineering House (EH) is an RIT Special Interest House where members live, collaborate, and share similar interests.  
 This website introduces EH to prospective members and provides information about the community.   
-The website is maintained by the active Computer Chair of Engineering House. For major changes, please contact the current chair.
+The website is maintained by the active Computer Chair of Engineering House. For major changes, please contact the
+current chair.
 
 ## Project Structure
 
@@ -16,10 +17,13 @@ The website is maintained by the active Computer Chair of Engineering House. For
 - images/ — Pictures and logos
 - fonts/ — Custom fonts
 - README.md — This file
+
 ## Codebase
+
 - html
 - JavaScript
 - CSS
+
 ## Credits
 
 - Template: [Photon by HTML5 UP](https://html5up.net/photon)
@@ -28,8 +32,12 @@ The website is maintained by the active Computer Chair of Engineering House. For
 - Libraries and Polyfills: jQuery, html5shiv.js, CSS3 Pie, background-size polyfill, Respond.js, Skel
 
 ## URL
+
 - **RIT-hosted version (out of date):** [rit.edu/sg/ehouse](https://www.rit.edu/sg/ehouse/index.html)
-- **GitHub Pages version (in progress):** [aap5772.github.io/EhouseWebsite25-26](https://aap5772.github.io/EhouseWebsite25-26/)
+- **GitHub Pages version (in progress):
+  ** [aap5772.github.io/EhouseWebsite25-26](https://aap5772.github.io/EhouseWebsite25-26/)
+
 ## Contributing
+
 The site was originally created by Anthony Edvalson and is maintained by the current Computer Chair of EH.  
 Currently, it is managed by Alex Polo, a second-year Computer Science student.
