@@ -40,6 +40,36 @@ textarea {
     height: 200px; 
     margin-bottom: 1em
 }
+/*make sure the logo doesnt get too small when on a smaller screen*/
+#header .inner .jankathon-logo{
+    height: auto;
+    width: 50%;
+    max-width: 860px;
+}
+
+@media (max-width: 1000px) {
+    #header .inner .jankathon-logo{
+        width: 70%;
+    }
+}
+
+@media (max-width: 850px) {
+    #header .inner .jankathon-logo{
+        width: 80%;
+    }
+}
+
+@media (max-width: 720px) {
+    #header .inner .jankathon-logo{
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+    #header .inner .jankathon-logo{
+        width: 95%;
+    }
+}
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form, .navbar-header, .navbar-default {
     background-color: #fff;
@@ -731,4 +761,50 @@ header.major:after {
 
 a.carousel-control {
     color: #fff;
+}
+
+.jankathon-banner {
+    text-align: center;
+}
+
+.jankathon-banner .container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jankathon-banner-link {
+    display: inline-block;
+}
+
+.jankathon-banner-logo {
+    width: 60%;
+    max-width: 520px;
+    height: auto;
+    margin: 0 auto 1.25em;
+    display: block;
+}
+
+.jankathon-banner-text {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    margin: 0 auto 1.5em;
+}
+
+@media (max-width: 900px) {
+    .jankathon-banner-logo {
+        width: 70%;
+    }
+}
+
+@media (max-width: 720px) {
+    .jankathon-banner-logo {
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px) {
+    .jankathon-banner-logo {
+        width: 90%;
+    }
 }
